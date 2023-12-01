@@ -7,7 +7,8 @@
 <body>
     <div class="music-container">
         <h2>Music Player</h2>
-        <input type="text" id="songName" placeholder="Enter song name">
+        <input type="text" id="songName" placeholder="Enter song name" autocomplete="off">
+        <ul id="suggestions"></ul>
         <audio controls id="audioPlayer"></audio>
         <button onclick="playMusic()">Play</button>
     </div>
